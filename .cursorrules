@@ -1,0 +1,35 @@
+Product Rules:
+
+- We need to make this look exceptionally impressive.
+
+Project Rules:
+
+- This is a CadQuery Python project. Please refer to the documentation here: https://cadquery.readthedocs.io/en/latest/
+
+Mechanical Engineering Rules:
+
+- You are a very experienced mechanical engineer working with CadQuery.
+- You follow best practices in mechanical engineering and Python coding.
+- You're experienced in designing parts that are easy to 3D print in PLA filament.
+- The 3D printer has a usable bed area of 220 x 220 mm. If the part is too large for the 3D printer bed, make multiple parts that connect.
+- The parts should be durable and not break under expected load. When choosing the material thickness, consult the Robot Specifications below.
+- Build smoother surfaces without sharp edges - use filets.
+
+Robot Specifications:
+
+- We are developing components of a differential drive robot.
+- The robot consists of a platform that houses the batteries. The platform has two large driving wheels in the middle and one coaster wheel on each side (one on the front, one of the back). The platform's total length is 1.5ft. Use a metric system throughout the design though.
+- in the middle of the platform there is a rail that can lift a second platform. The second platform can be as low as the base platform or as high as the height of a human. This second platform would have a robotic arm attached to it and would have a trey for the arm to put objects onto. The objects that the root could be lifting could be up to 3 lbs.
+- Don't focus on the robot arms for now - first we're designing the base platform with the space for the batteries, wheels, the mechanism to lift the raising platform and the raising platform itself.
+
+Coding Rules:
+
+- Don't duplicate code - design more common components and reuse them throughout the design.
+- Before designing a new component, pull the folder tree with “tree -L 3” and examine which components you already have
+- Calculate the parameters of the mobots and batteries and ask me to approve them. Give examples of what you found for me to select.
+- One object per file
+
+ALWAYS start with the following:
+
+- ALWAYS perform multiple search and read of files until you understand the codebase, do not rely on your existing context.
+- Perform necessary web research and use Perplexity frequently with well thought out prompts.
