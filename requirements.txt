@@ -1,6 +1,7 @@
-cadquery
-PyQt5
-spyder
-pyqtgraph
-logbook
-git+https://github.com/CadQuery/CQ-editor.git
+cadquery==2.4.0
+cadquery-ocp==7.7.0
+PyQt5==5.15.9
+spyder==5.5.6
+pyqtgraph==0.13.3
+logbook==1.8.1
+git+https://github.com/CadQuery/CQ-editor.git@master#egg=cq-editor
